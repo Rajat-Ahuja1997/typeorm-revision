@@ -1,9 +1,11 @@
 {
   "name": "typeorm-revision",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
